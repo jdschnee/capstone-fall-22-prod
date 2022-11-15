@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Page</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  
+  <script src="js/util.js" defer></script>
+  <script src="js/quiz-game.js" defer></script>
+  <script src="js/code-box.js" defer></script>
+  <script src="js/timer.js" defer></script>
+  <script src="js/timer-start.js" defer></script>
+</head>
+
+<body>
+  <div class="container" style="margin-top: 8rem">
+    <div id="game" class="justify-center flex-column">
+      <div class="quiz-section">
+        <div id="hud" class="u-margin-bottom-small">
+          <div class="hud-item">
+            <p id="progressText" class="hud-prefix">
+              Question
+            </p>
+            <div id="progressBar">
+              <div id="progressBarFull"></div>
+            </div>
+          </div>
+          <div class="hud-item">
+            <p class="hud-prefix">
+              Score
+            </p>
+            <h1 class="hud-main-text" id="score">
+              0
+            </h1>
+          </div>
+        </div>
+        <h1 id="question" class="u-center u-margin-bottom-small">What is the answer to this question</h1>
+        <div class="quiz-code-box" id="quiz-code-editor">
+        <textarea name="" id="" cols="30" rows="8" style="width: 100%; border-radius: 2rem; padding: 1rem;"></textarea>
+        </div>
+        <div class="choice-container btn btn--white btn--animated btn--calculator">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="1">Choice</p>
+        </div>
+        <div class="choice-container btn btn--white btn--animated btn--calculator">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="2">Choice 2</p>
+        </div>
+        <div class="choice-container btn btn--white btn--animated btn--calculator">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="3">Choice 3</p>
+        </div>
+        <div class="choice-container btn btn--white btn--animated btn--calculator">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="4">Choice 4</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="timer">
+    <div class="controls">
+      <input id="duration" value="60" />
+      <div>
+        <button id="start"><i class="fas fa-play"></i></button>
+        <button id="pause"><i class="fas fa-pause"></i></button>
+      </div>
+    </div>
+    
+
+    <svg class="dial">
+      <circle
+        fill="transparent" 
+        stroke="#0bdf24" 
+        stroke-width="15" 
+        r="190" 
+        cx="0" 
+        cy="200"
+        transform="rotate(-90 100 100)" />
+    </svg>
+  </div>
+
+  </div>
+
+  
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/icon-font.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/tutorial-video.js" defer></script>
+  <script src="js/big-o-calc.js" defer></script>
+  <script src="js/quiz.js" defer></script>
+  <script src="js/code-box.js" defer></script>
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
+
+  <title>MAVERICK | Run-time Complexity Calculator</title>
+</head>
+
+<body>
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navigation-toggle">
+    <label for="navigation-toggle" class="navigation__btn">
+      <span class="navigation__icon"></span>
+    </label>
+    <div class="navigation__bkgd">&nbsp</div>
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="index.html" class="navigation__link">Home</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
+        <li class="navigation__item"><a href="tutorials.html" class="navigation__link">Tutorials</a></li>
+        <li class="navigation__item"><a href="calculator.html" class="navigation__link">Calculate</a></li>
+      </ul>
+    </nav>
+  </div>
+  <header class="header">
+    
+    <span class="header__logo-box-1">🧠💡🟰💪🏆</span>
+    <div class="header__logo-box-2">
+      <img src="assets/logo-white.png" alt="Logo" class="header__logo">
+
+    </div>
+
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary--main">knowledge is power</span>
+        <span class="heading-primary--sub">work smarter not harder and learn run-time analysis the easy way</span>
+      </h1>
+      <div class="btn-flex-container">
+        <a href="#about-section" class="btn btn--white btn--animated">Learn More</a>
+        <a href="#tutorial-section" class="btn btn--white btn--animated">Video Tutorials</a>
+        <a href="#code-editor" class="btn btn--white btn--animated">Start Calculating</a>
+      </div>
+    </div>
+
+  </header>
+  <main>
+    <section class="section-about" id="about-section">
+      <div class="u-center-text u-margin-bottom-med">
+        <h2 class="heading-secondary">Where to start?</h2>
+      </div>
+      <div class="grid">
+        <div class="grid-item">
+          <h3 class="heading-tertiary u-margin-bottom-small">lightning fast run-time analysis</h3>
+          <p class="paragraph">
+            It's as simple as copy and paste. Get real-time feedback on each line of code you input to help better
+            understand which segments of your code might be slowing you down.
+          </p>
+
+          <h3 class="heading-tertiary u-margin-bottom-small">understand the how and the why</h3>
+          <p class="paragraph">
+            Learn not only the answer you've been searching for but truly understand the motive and techniques used to
+            calculate run-time analysis. Solidify the foundation needed to build a great career in computer science.
+          </p>
+        </div>
+        <div class="grid-item">
+          <div class="composition">
+            <img src="assets/bright-idea.jpg" alt="photo idea" class="composition__photo composition__photo--p1">
+            <img src="assets/start-code.jpg" alt="photo code" class="composition__photo composition__photo--p2">
+            <img src="assets/time-code.jpg" alt="photo time" class="composition__photo composition__photo--p3">
+            <img src="assets/compare.jpg" alt="photo compare" class="composition__photo composition__photo--p4">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-tutorials" id="tutorial-section">
+      <div class="u-center-text u-margin-top-small">
+        <h2 class="tutorial-heading">tutorials <i class="tutorial-box__icon icon-basic-video"></i></h2>
+      </div>
+      <div class="section-tutorials-flex-container">
+        <div class="tutorial-box" tabIndex="1">
+            <i class="tutorial-box__icon icon-basic-sheet-pencil"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">Principles</h3>
+          <p class="tutorial-box__text">
+            Learn the basic principles, techniques, and heuristics to get started with analyzing run-time complexity
+          </p>
+          <iframe id="tutorial-video-1" class="tutorial-video" src="https://www.youtube.com/embed/IgeJmTKQlKs"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <img src="assets/principles.jpg" alt="principles-photo" class="tutorial__photo">
+          <!-- </div> -->
+          <!-- <i class="tutorial-box__icon icon-basic-sheet-pencil"></i>
+          <h3 class="heading-tertiary u-margin-bottom-small">Principles</h3>
+          <p class="tutorial-box__text">
+            Learn the basic principles, techniques, and heuristics to get started with analyzing run-time complexity
+          </p>
+          <iframe id="tutorial-video-1" class="tutorial-video" src="https://www.youtube.com/embed/IgeJmTKQlKs"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <img src="assets/principles.jpg" alt="principles-photo" class="tutorial__photo"> -->
+        </div>
+        <div class="tutorial-box" tabIndex="2">
+          <i class="tutorial-box__icon icon-basic-pencil-ruler"></i>
+          <h3 class="heading-tertiary u-margin-bottom-small">Measurements</h3>
+          <p class="tutorial-box__text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum eligendi delectus nesciunt id, esse
+            eveniet libero? Alias asperiores ratione rem aut similique eligendi magnam.
+          </p>
+          <iframe class="tutorial-video" src="https://www.youtube.com/embed/vsgrJrphEHo" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <img src="assets/measurements.jpg" alt="measurements-photo" class="tutorial__photo">
+        </div>
+        <div class="tutorial-box" tabIndex="3">
+          <i class="tutorial-box__icon icon-basic-magnifier"></i>
+          <h3 class="heading-tertiary u-margin-bottom-small">Examples</h3>
+          <p class="tutorial-box__text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic repellat omnis ratione similique aliquam
+            blanditiis rerum cum, necessitatibus, quos amet.
+          </p>
+          <iframe class="tutorial-video" src="https://www.youtube.com/embed/66ovUEE0bQI" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <img src="assets/examples.jpg" alt="examples-photo" class="tutorial__photo">
+        </div>
+      </div>
+    </section>
+  </main>
+  <section class="code">
+    <div class="code-box" id="code-editor">
+      <h2 class="heading-calculator">Run-time Analysis Calculator</h2>
+      <textarea class='line-counter' readonly>1.</textarea><textarea id="editor" class='code-editor'></textarea>
+    </div>
+    <section id="calculator-section" style="position: relative">
+          <a href="#calculator-section" id="calculate-btn"class="btn btn--white btn--animated btn--calculator">calculate</a>
+          <br>
+          <a href="/quiz-dashboard.html" class="btn btn--white btn--animated btn--calculator">quiz</a>
+          <section class="quiz-section">
+          </section>
+    </section>
+  </section>
+  <footer class="footer">
+    <div class="footer__logo-box">
+      <img src="assets/logo-white.png" alt="logo" class="footer__logo">
+    </div>
+    <div class="footer-flex">
+      <div class="footer__navigation">
+        <ul class="footer__list">
+          <li class="footer__item"><a href="" class="footer__link">About Team</a></li>
+          <li class="footer__item"><a href="" class="footer__link">Contact Us</a></li>
+          <li class="footer__item"><a href="" class="footer__link">Learning Resources</a></li>
+        </ul>
+      </div>
+      <p class="footer__copyright">
+        &copy University of Nebraska at Omaha | Capstone Fall 2022
+      </p>
+    </div>
+  </footer> 
+</body>
+
+</html>

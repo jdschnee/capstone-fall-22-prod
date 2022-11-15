@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+      
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/code-box.js" defer></script>
+        <script src="js/big-o-calc.js" defer></script>
+        <script src="js/quiz.js" defer></script>
+      
+        <title>Calculator</title>
+      </head>
+
+      <body>
+        <div class="navigation">
+          <input type="checkbox" class="navigation__checkbox" id="navigation-toggle">
+          <label for="navigation-toggle" class="navigation__btn">
+            <span class="navigation__icon"></span>
+          </label>
+          <div class="navigation__bkgd">&nbsp</div>
+          <nav class="navigation__nav">
+            <ul class="navigation__list">
+              <li class="navigation__item"><a href="index.html" class="navigation__link">Home</a></li>
+              <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
+              <li class="navigation__item"><a href="tutorials.html" class="navigation__link">Tutorials</a></li>
+              <li class="navigation__item"><a href="calculator.html" class="navigation__link">Calculate</a></li>
+            </ul>
+          </nav>
+        </div>
+        <main>
+          <section class="section-tutorials" id="tutorial-section">
+            <div class="u-center-text u-margin-top-small">
+              <h2 class="tutorial-heading">Big O Notation Calculator<i class="tutorial-box__icon icon-basic-video"></i></h2>
+            </div>
+          </section>
+        </main>
+        <section class="code">
+            <div class="code-box" id="code-editor">
+              <textarea class='line-counter' readonly>1.</textarea><textarea id="editor" class='code-editor'></textarea>
+            </div>
+            <section id="calculator-section">
+                  <a href="#calculator-section" id="calculate-btn"class="btn btn--white btn--animated btn--calculator">calculate</a>
+                  <section class="quiz-section">
+                  </section>
+            </section>
+        </section>
+      </body>
+</html>
